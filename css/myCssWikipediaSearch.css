@@ -1,0 +1,23 @@
+.message {
+  font-family: 'Homemade Apple', cursive;
+  color: blue;
+  font-size: large;
+}
+
+.footer {
+  margin-top: 50px;
+  font-size: small;
+}
+
+.well {
+  margin-top: 80px;
+}
+
+.title {
+  margin-top: 50px;
+  margin-bottom: 70px;
+}
+
+.btn{
+  margin: 10px;
+}

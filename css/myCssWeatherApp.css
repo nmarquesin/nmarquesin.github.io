@@ -1,0 +1,12 @@
+body {
+  background-color: white;
+}
+
+.main-box{
+  padding-top: 80px;
+  padding-bottom: 40px;
+}
+
+.convert-btn{
+  margin-bottom: 250px;
+}

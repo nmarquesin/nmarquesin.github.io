@@ -1,0 +1,73 @@
+<html>
+  <head>
+    <meta charset="utf-8">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script>
+    <script type="text/javascript" src="js\bootstrap.js"></script>
+    <script type="text/javascript" src="js\myjsSimon.js"></script>
+    <link rel="stylesheet" href="css\bootstrap.css">
+    <link rel="stylesheet" href="css\bootstrap-theme.css">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap-theme.min.css" integrity="sha384-rHyoN1iRsVXV4nD0JutlnGaslCJuC7uwjduW9SVrLvRYooPp2bWYgmgJQIXwl/Sp" crossorigin="anonymous">
+    <link rel="stylesheet" href="css\mycssSimon.css">
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js" integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa" crossorigin="anonymous"></script>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script>
+    <link href="https://fonts.googleapis.com/css?family=Ultra" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=VT323" rel="stylesheet">
+  </head>
+  <body>
+    <div class="container">
+
+      <div id="board" >
+
+        <div class="row">
+          <div class="col-xs-6 text-right">
+            <div id="greenBtn"></div>
+          </div>
+          <div class="col-xs-6 text-left">
+            <div id="redBtn"></div>
+          </div>
+        </div> <!--end of .row-->
+
+        <div class="row">
+          <div class="col-xs-6 text-right">
+            <div id="yellowBtn">Yellow</div>
+          </div>
+          <div class="col-xs-6 text-left">
+            <div id="blueBtn">Blue</div>
+          </div>
+        </div> <!--end of .row-->
+
+        <div id="outerBoardCenter">
+          <div id="boardCenter" class="well text-center">
+            <div class="row title">Simon</div>
+            <div class="row">
+              <div class="col-xs-4"></div>
+              <div class="col-xs-4"></div>
+              <div id="indicatorLight" class="col-xs-4 text-center">
+                <div id="strictLightOff"></div>
+              </div>
+            </div>
+            <div class="row">
+              <div id="countDisplay" class="col-xs-4 disp">--</div>
+              <div class="col-xs-4">
+                <button id="startBtn" type="button" name="button">Start</button>
+              </div>
+              <div class="col-xs-4">
+                <button id="strictBtn" type="button" name="button">Strict</button>
+              </div>
+            </div>
+            <div class="row">
+              <div class="col xs 12">
+                OFF<label class="switch">
+                  <input id="onBtn" type="checkbox">
+                  <div class="slider round"></div>
+                </label>ON
+              </div>
+            </div>
+          </div>
+        </div>
+
+      </div><!--end of #board-->
+    </div> <!--end of .container-->
+  </body>
+</html>

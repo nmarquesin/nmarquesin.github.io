@@ -1,0 +1,27 @@
+.working {
+  color: green;
+}
+.resting {
+  color: orange;
+}
+#workTime {
+  font-size: 30px;
+  color: green;
+  text-align: right;
+}
+#restTime {
+  font-size: 30px;
+  color: orange;
+  text-align: right;
+}
+#buttons {
+  margin: 20px;
+}
+#title {
+  padding: 30px;
+  font-family: 'Pacifico', cursive;
+}
+#timer {
+  padding: 20px;
+  font-family: 'Pacifico', cursive;
+}

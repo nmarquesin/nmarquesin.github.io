@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="utf-8">
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script>
+  <script type="text/javascript" src="js\bootstrap.js"></script>
+  <script type="text/javascript" src="js\myScriptsWeatherApp.js"></script>
+  <link rel="stylesheet" href="css\bootstrap.css">
+  <link rel="stylesheet" href="css\bootstrap-theme.css">
+  <link rel="stylesheet" href="css\myCssWeatherApp.css">
+  <link href="https://fonts.googleapis.com/css?family=Pacifico" rel="stylesheet">
+  <title>Free Code Camp's Weather app</title>
+</head>
+  <body>
+  <div class="container-fluid">
+    <div id = "row data">
+      <div class="col-sm-12 text-center main-box">
+        <div class="localWeather"></div>
+        <h2>Hello <span class="city"></span>
+        <br>
+        <div class="icon"> </div>
+        it's
+        <p class="celsius"> Temp C</p>
+        <p class="fahrenheit" style="display: none"> Temp F</p>
+        and <span class="situation"> </span> outside.
+        </h2>
+      </div>
+    </div>
+
+    <br />
+
+
+    <div class="row">
+      <div class="col-sm-12 text-center">
+          <button class="btn btn-warning btn-sm convert-btn">
+            Convert Temperature</button>
+
+          <script>
+          $( "button" ).click(function() {
+            $( "p" ).toggle();
+          });
+          </script>
+
+      </div>
+    </div>
+
+
+
+  </div>

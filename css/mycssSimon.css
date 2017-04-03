@@ -1,0 +1,173 @@
+#board {
+  position: absolute;
+  top:10%;
+  left:55%;
+  margin-top: 0px;
+  margin-left: -300px;
+  width: 430px;
+  height: 430px;
+  background-color: black;
+  border-radius: 430px;
+
+}
+
+#greenBtn {
+  position: relative;
+  top: 10px;
+  left: 10px;
+  height: 200px;
+  width: 200px;
+  background-color: green;
+  border-top-left-radius: 400px;
+}
+
+#redBtn {
+  position: relative;
+  top: 10px;
+  left: -10px;
+  height: 200px;
+  width: 200px;
+  background-color: red;
+  border-top-right-radius: 400px;
+}
+
+#yellowBtn {
+  position: relative;
+  top: 20px;
+  left: 10px;
+  height: 200px;
+  width: 200px;
+  background-color: yellow;
+  border-bottom-left-radius: 400px;
+}
+
+#blueBtn {
+  position: relative;
+  top: 20px;
+  left: -10px;
+  height: 200px;
+  width: 200px;
+  background-color: blue;
+  border-bottom-right-radius: 400px;
+}
+
+#outerBoardCenter {
+  position: relative;
+  top: -305px;
+  left: 95px;
+  height: 240px;
+  width: 240px;
+  border-radius: 240px;
+  background-color: black;
+}
+
+#boardCenter {
+  position: relative;
+  top: 10px;
+  left: 10px;
+  height: 220px;
+  width: 220px;
+  border-radius: 220px;
+  background-color: white;
+}
+
+
+
+/* The strict light indicator */
+#strictLightOff {
+  border-radius: 50%;
+	width: 10px;
+	height: 10px;
+  background: black;
+  margin-left: 10px;
+  margin-bottom: 5px;
+}
+
+#strictLightOn {
+  border-radius: 50%;
+	width: 10px;
+	height: 10px;
+  background: red;
+  margin-left: 10px;
+  margin-bottom: 5px;
+}
+
+.winMsg {
+  font-size: 14px;
+}
+
+.title {
+  font-family: 'Ultra', serif;
+  font-size: 40px;
+  margin-top: 10px;
+  margin-bottom: 0px;
+}
+
+.disp {
+  font-family: 'VT323', monospace;
+  font-size: 25px;
+  padding: 0px;
+  background-color: black;
+  color: red;
+  width: 30px;
+  height: 36px;
+  margin-left: 30px;
+}
+/* The switch - the box around the slider */
+.switch {
+  position: relative;
+  display: inline-block;
+  width: 60px;
+  height: 34px;
+}
+
+/* Hide default HTML checkbox */
+.switch input {display:none;}
+
+/* The slider */
+.slider {
+  position: absolute;
+  cursor: pointer;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  background-color: #ccc;
+  -webkit-transition: .4s;
+  transition: .4s;
+}
+
+.slider:before {
+  position: absolute;
+  content: "";
+  height: 26px;
+  width: 26px;
+  left: 4px;
+  bottom: 4px;
+  background-color: white;
+  -webkit-transition: .4s;
+  transition: .4s;
+}
+
+input:checked + .slider {
+  background-color: #2196F3;
+}
+
+input:focus + .slider {
+  box-shadow: 0 0 1px #2196F3;
+}
+
+input:checked + .slider:before {
+  -webkit-transform: translateX(26px);
+  -ms-transform: translateX(26px);
+  transform: translateX(26px);
+}
+
+/* Rounded sliders */
+.slider.round {
+  border-radius: 34px;
+}
+
+.slider.round:before {
+  border-radius: 50%;
+}
