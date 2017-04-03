@@ -1,0 +1,71 @@
+div{
+	border: 0px solid #73AD21;
+	font-family: sans-serif;
+}
+
+.noclass{
+	font-family: 'Amatic SC', cursive;
+	font-family: 'Gloria Hallelujah', cursive;
+}
+
+.btn-circle {
+  width: 48px;
+  height: 48px;
+  border-radius: 50%;
+	padding: 0;
+	border: 0;
+}
+
+.blue {
+	color: white;
+}
+
+a.blue:hover{
+	color: white;
+	text-decoration: none;
+}
+
+.projectText{
+	padding: 30px;
+}
+
+.projects {
+	margin: 15px;
+}
+
+h1, h2, h3 {
+	font-family: 'Gloria Hallelujah', cursive;
+}
+
+.btn {
+	margin-top: 20px;
+	margin-bottom: 20px;
+}
+
+#navBar{
+	background-color: black;
+	color: green;
+}
+#about, #courses, #portfolio{
+	background-color: #AAAAAA;
+}
+
+#contact{
+	background-color: #222222;
+}
+#rodape{
+	background-color: black;
+}
+
+.mailMarginTop {
+	margin-top: 30px;
+}
+
+.mailMarginBottom {
+	margin-bottom: 25px;
+}
+
+.whiteBack {
+	padding-top: 160px;
+	background-color: white;
+}
