@@ -4,6 +4,20 @@
 .resting {
   color: orange;
 }
+.footer {
+  margin-top: 50px;
+  text-align: center;
+  background-color: #e3e5e8;
+}
+#reset{
+  margin-left: 80px;
+}
+#progressBar{
+  border-width: thin;
+  border-style: solid;
+  border-color: black;
+  padding: 0px;
+}
 #workTime {
   font-size: 30px;
   color: green;

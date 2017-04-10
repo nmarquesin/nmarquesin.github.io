@@ -54,7 +54,7 @@ function createColorSequence () {
   for (var i= 0; i< playsToWin; i++) {
     colorSequence.push(randomColor());
   }
-  console.log("This is the array: ", colorSequence);
+  //console.log("This is the array: ", colorSequence);
 }
 
 // start new game
@@ -69,10 +69,10 @@ function startGame() {
 function playGame() {
   if (count < playsToWin) {
     count += 1;
-    console.log("Counter is: ", count);
+    //console.log("Counter is: ", count);
     playSequence(count);
   } else {
-    console.log("You win!")
+    //console.log("You win!")
     youWin();
     pressColoredButtons = false;
   }
@@ -91,12 +91,12 @@ function youWin() {
 var restartAnimationDelay = 1500;
 // store restart sequence for non-strict mode
 function levelRestart() {
-  console.log("Restarting level...")
+  //console.log("Restarting level...")
   var i= 0;
   var animation = setInterval(function() {
     i += 1;
     if (i > 1) {
-      console.log("You made a mistake. Repeating the sequence...")
+      //console.log("You made a mistake. Repeating the sequence...")
       count-= 1;
       playerSequence = [];
       playGame();
@@ -108,12 +108,12 @@ function levelRestart() {
 
 // store failure sequence for strict mode
 function gameFail() {
-  console.log("Game Over!")
+  //console.log("Game Over!")
   var i= 0;
   var animation = setInterval(function() {
     i += 1;
     if (i > 1) {
-      console.log("Game restarts now!!!")
+      //console.log("Game restarts now!!!")
       resetStart();
       startGame();
       clearInterval(animation);
@@ -136,7 +136,7 @@ function playSequence(count) {
     playThis.push(colorSequence[i]);
   }
   // play sequence of buttons according to counter
-  console.log("This is the ", count, "play: ", playThis);
+  //console.log("This is the ", count, "play: ", playThis);
   var i= 0;
   var animation = setInterval(function() {
     if (i === 0) {
@@ -151,7 +151,7 @@ function playSequence(count) {
     function myFunc() {
       btnAnimation(playThis[i]);
       i += 1;
-      console.log("#"+playThis[i]+"Btn");
+      //console.log("#"+playThis[i]+"Btn");
     }
     // call blinking function for each arr element and stop interval
     if (i < playThis.length-1 && gameOn) {
@@ -178,9 +178,9 @@ function btnAction(color) {
   } else {
     failAnimation(color);
   }
-  console.log("player sequence now is: ", playerSequence);
-  console.log("counter now is: ", count);
-  console.log("lenght of player sequence now is: ", playerSequence.length);
+  //console.log("player sequence now is: ", playerSequence);
+  //console.log("counter now is: ", count);
+  //console.log("lenght of player sequence now is: ", playerSequence.length);
   // if wrong move
   if (!comparePlays()) {
     if (strict) {
@@ -192,7 +192,7 @@ function btnAction(color) {
     }
   // if right move
 } else if (playerSequence.length === count) {
-    console.log("print this");
+    //console.log("print this");
     pressColoredButtons = false;
     playerSequence = [];
     playGame();
@@ -234,7 +234,7 @@ function playSound(color) {
       audioAddress = "https://s3.amazonaws.com/freecodecamp/simonSound2.mp3";
       break;
     default:
-      console.log("problem with button animation audio");
+      //console.log("problem with button animation audio");
   }
   var audio = new Audio(audioAddress);
   audio.play();
@@ -304,7 +304,7 @@ $(document).ready( function(){
   $( "#onBtn" ).click(function() {
     gameOn = !gameOn;
     resetAll();
-    console.log("gameOn is now: ", gameOn);
+    //console.log("gameOn is now: ", gameOn);
     return 0;
   });
 
@@ -312,7 +312,7 @@ $(document).ready( function(){
   $( "#startBtn" ).click(function() {
     if (gameOn === true && holdBtns === false) {
       resetStart();
-      console.log("gameStart is now: ", gameOn);
+      //console.log("gameStart is now: ", gameOn);
       startGame();
     }
     return 0;
@@ -322,7 +322,7 @@ $(document).ready( function(){
   $( "#strictBtn" ).click(function() {
     if (gameOn === true && holdBtns === false) {
       strict = !strict;
-      console.log("strict is now: ", strict);
+      //console.log("strict is now: ", strict);
     }
     if (strict === true) {
       $("#indicatorLight").html('<div id="strictLightOn"></div>');
