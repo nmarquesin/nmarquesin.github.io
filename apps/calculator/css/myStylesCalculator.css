@@ -21,8 +21,17 @@ p {
 .btn-enter {
   height: 105px;
 }
-#calc-display {
+.footer {
+  margin-top: 50px;
+  text-align: center;
+  background-color: #e3e5e8;
+}
+#calcDisplay {
   font-size: 30px;
+}
+#calc-body {
+  position:relative;
+  margin-left: 30%;
 }
 #btns-last-2-rows {
   margin-top: 0;

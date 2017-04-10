@@ -49,7 +49,10 @@ h1, h2, h3 {
 #about, #courses, #portfolio{
 	background-color: #AAAAAA;
 }
-
+#about .text-center{
+	padding-left: 40px;
+	padding-right: 40px;
+}
 #contact{
 	background-color: #222222;
 }

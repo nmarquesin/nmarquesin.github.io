@@ -1,0 +1,34 @@
+body {
+  background-color: white;
+}
+
+.main-box{
+  padding-top: 80px;
+  padding-bottom: 40px;
+}
+
+.convert-btn{
+  margin-bottom: 150px;
+}
+
+.footer {
+  text-align: center;
+  background-color: #f29626;
+}
+
+a:link {
+    color: white;
+}
+
+a:visited {
+    color: #e3e5e8;
+}
+
+a:hover {
+    color: #ffdbaf;
+}
+
+a:active {
+    color: #ffdbaf;
+}
+/* #ffdbaf #e3e5e8 */
