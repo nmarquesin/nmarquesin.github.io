@@ -113,6 +113,13 @@
   height: 36px;
   margin-left: 30px;
 }
+
+.footer {
+  position: absolute;
+  top:90%;
+  text-align: center;
+  background-color: black;
+}
 /* The switch - the box around the slider */
 .switch {
   position: relative;
