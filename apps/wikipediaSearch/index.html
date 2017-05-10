@@ -1,14 +1,12 @@
 <!DOCTYPE html>
 <html>
 <head>
-  <meta http-equiv="Content-Type" content="text/html; charset=windows-1252">
   <link rel="stylesheet" href="..\..\css\bootstrap-theme.min.css">
   <link rel="stylesheet" href="..\..\css\bootstrap.min.css">
-  <link rel="stylesheet" href="css\myCssWikipediaSearch.css">
-  <link href="https://fonts.googleapis.com/css?family=Amatic+SC|Gloria+Hallelujah" rel="stylesheet">
-  <link href="https://fonts.googleapis.com/css?family=Homemade+Apple" rel="stylesheet">
+  <link rel="stylesheet" href="css\style.css">
   <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.1.0/jquery.min.js"></script>
-  <script type="text/javascript" src="js\myScriptsWikipediaSearch.js"></script>
+  <script type="text/javascript" src="js\script.js"></script>
+  <title>Wikipedia Search</title>
 </head>
 <body>
 
@@ -20,21 +18,21 @@
 
 
     <div class = "row text-center title">
-      <h2>Search Wikipedia</h2>
+      <h2>Search Wikipedia Novo Titulo</h2>
     </div>
 
 
-    <div class = "row text-center">
-      <div class = "col-xs-12 well">
-        <div class = "col-xs-9 message">
-          <form action=""><input id="text" type="text" placeholder="Search"/></form>
+    <div class = "row ">
+        <div class = "col-xs-12 well">
+          <div class = "col-xs-9 text-right">
+            <input id="search-text" type="text" placeholder="Type your search here" size="90"/>
+          </div>
+          <div class = "col-xs-3 text-left">
+            <button id="submit-btn" class="btn btn-primary search-button">
+              Submit
+            </button>
+          </div>
         </div>
-        <div class = "col-xs-3 text-left">
-          <button id = "submitBtn" class = "btn btn-primary">
-            Submit
-          </button>
-        </div>
-      </div>
     </div>
 
     <div class = "row text-center">
@@ -58,7 +56,7 @@
     </div>
 
 
-  </div>
+  </div> <!-- end of .container-fluid -->
 
 </body>
 </html>

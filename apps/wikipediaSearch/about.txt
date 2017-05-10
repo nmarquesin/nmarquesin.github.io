@@ -1,0 +1,7 @@
+This page was created by me as a Project
+for the Front End track of freeCodeCamp.
+
+The guidelines are here:
+https://www.freecodecamp.com/challenges/build-a-wikipedia-viewer
+
+You can contact me at nmarquesin@live.com
