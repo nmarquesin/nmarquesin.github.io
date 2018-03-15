@@ -1,4 +1,6 @@
-var textoMissao = "<p>Nossa missão é ser um tinder que conecta "+
+var textoMissao = "<p>A triste realidade atual é que muitos governos "+
+"tem tido cortes em seus orcamentos para educacão.</p>"+
+"<p>Nossa missão é ser um tinder que conecta "+
 "educadores em busca de recursos à doadores interessados em "+
 "contribuir diretamente com projetos educacionais de uma comunidade "+
 "ou em suprir necessidades básicas de estudantes que não têm sido "+
