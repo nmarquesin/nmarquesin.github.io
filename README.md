@@ -1,2 +1,4 @@
 # nmarquesin.github.io
-Portfolio
+My portfolio
+
+Projects I've done can be found in the folder apps.

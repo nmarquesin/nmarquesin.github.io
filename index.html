@@ -1,235 +1,97 @@
-<!DOCTYPE html>
-<html>
+<!doctype html>
+
+<html lang="en">
 <head>
-  <meta http-equiv="Content-Type" content="text/html; charset=windows-1252">
-  <link rel="stylesheet" href="css/bootstrap-theme.min.css">
-  <link rel="stylesheet" href="css/bootstrap.min.css">
-  <link rel="stylesheet" href="css/main.css">
-  <link href="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/3.3.7/css/bootstrap.min.css" rel="stylesheet">
-  <link href="https://fonts.googleapis.com/css?family=Amatic+SC|Gloria+Hallelujah" rel="stylesheet">
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width,initial-scale=1">
+  <title>Portfolio Site</title>
+  <meta name="description" content="First project: Protfolio Site">
+  <meta name="author" content="Nathalie Marquesin">
+  <link href="https://fonts.googleapis.com/css?family=Montserrat&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="css/styles.css">
 </head>
 <body>
-  <div class="container-fluid">
-
-		<!--                 -->
-		<!--  Navbar block   -->
-		<!--                 -->
-		<nav class="navbar navbar-default navbar-fixed-top">
-			<div class="container-fluid">
-				<div id="navBar" class="row">
-					<div class="col-sm-2"></div>
-					<div class="col-sm-8">
-						<!-- Logo and toggle -->
-						<div class="navbar-header">
-							<button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1" aria-expanded="false">
-								<span class="sr-only">Toggle navigation</span>
-								<span class="icon-bar"></span>
-								<span class="icon-bar"></span>
-								<span class="icon-bar"></span>
-							</button>
-							<div class="container">
-							<a class="navbar-brand" href="#"><img class="img-center img-responsive img-circle" src="https://avatars.githubusercontent.com/u/23559837?v=3" width="100" height="100" ></a></div>
-						</div><!-- /.navbar-header-->
-
-						<!-- Navigation buttons -->
-						    <!-- Collect the nav links, forms, and other content for toggling -->
-            <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
-              <ul class="nav navbar-nav navbar-right">
-                <li role="presentation"><a href="#about"><span class="glyphicon glyphicon-home .sr-only" aria-hidden="true" aria-label="about"></span></a></li>
-                <li><a href="#courses"><span class="glyphicon glyphicon-education .sr-only" aria-hidden="true" aria-label="portfolio"></span></a></li>
-        				<li><a href="#portfolio"><span class="glyphicon glyphicon-briefcase .sr-only" aria-hidden="true" aria-label="portfolio"></span></a></li>
-        				<li><a href="#contact"><span class="glyphicon glyphicon-envelope .sr-only" aria-hidden="true" aria-label="contact"></span></a></li>
-              </ul>
-            </div>
-					</div>
-					<div class="col-sm-2"></div>
-				</div><!-- /#navBar -->
-			</div><!-- /.container-fluid -->
-		</nav>
-
-
-
-		<div  class="row greyBack">
-
-      <div class="fundo col-sm-2">
+  <div class="container">
+    <header>
+      <logo>
+        <img src="imgs/logo1.jpg" alt="Site logo">
+      </logo>
+      <div class="text">
+        <h1>Nathalie Marquesin</h1>
+        <h3>Front End Developer</h3>
       </div>
-      <div class="col-sm-8 whiteBack">
-        <!--                 -->
-        <!--   About block   -->
-        <!--                 -->
-        <div id="about">
-  				<!-- #about -->
-          <a name="about"></a>
-  				<div class="text-center">
-  					<div><span class="glyphicon glyphicon-home"></span></div>
-            <h3>Hi, I'm Nathalie.</h3><br />
-  					<p>I am a Front End Web Developer. </p>
-            <p>In the past I worked as an Engineer for the oil industry in Brasil and in Norway.
-              In the UK I worked as a Test Engineer for an Alarm Signalling Company.
-              I learned programming at University and later taught myself web development
-              through online courses. </p><br />
+    </header>
+    <main>
+      <section class="main-section">
+        <!-- <img id="highlight" src="https://placebear.com/1020/360" alt="Main project"> -->
+        <p>Hi, I'm Nathalie.</p>
+        <p>
+          I'm an Experienced Engineer with a demonstrated history of working
+          in the oil & gas, security and telecommunications industries.
+          I'm skilled in Systems Testing, Risk-Based Maintenance,
+          Condition Monitoring, Consequence Classification,
+          and Risk Analysis. I'm currently looking to move into
+          Front End Development Positions.
+        </p>
+      </section>
+  
+  	<h4>Featured Work</h4>
+      <div class="featured">
+        <section class="second-section">
+          <img src="imgs/memory.png" alt="Memory Game" height="200" width="150">
+          <h5>Memory Game</h5>
+          <h6><a href="https://nmarquesin.github.io/apps/memory/" target="_blank">https://nmarquesin.github.io/apps/memory/</a></h6>
+        </section>
+        <section class="second-section">
+            <img src="imgs/arcade.png" alt="Arcade style game" height="200" width="150">
+            <h5>Arcade Game</h5>
+            <h6><a href="https://nmarquesin.github.io/apps/frogger-clone/" target="_blank">https://nmarquesin.github.io/apps/frogger-clone/</a></h6>
+        </section>
+        <section class="second-section">
+          <img src="imgs/comingsoon.jpg" alt="Project 3" height="200" width="150">
+          <h5>Restaurant Reviews App</h5>
+          <h6><a href="https://nmarquesin.github.io/apps/udacityFrontEnd/project1/comingsoon.html" target="_blank">https://nmarquesin.github.io/restapp</a></h6>
+        </section>
+      </div>
 
-            <p>Feel free to download <a href="CVNathalie_2019.pdf" download>my CV</a> or
-              scroll down for more information about me.</p><br />
+      <h4>Education</h4>
+      <div class="education">
+      
+      <p>I have a <strong>MSc</strong> in Marine Technology from <em><strong>NTNU (Trondheim, Norway)</strong></em> and a <strong>B.Eng.</strong> in Naval Architecture and Marine Engineering from<em><strong>UFRJ (Rio de Janeiro, Brazil)</strong></em>.</p>
 
-  				</div>
-  			</div>
-
-    <!--                 -->
-		<!-- Education block -->
-		<!--                 -->
-        <div id="courses">
-  				<!-- #about -->
-          <a name="courses"></a>
-  				<div class="text-center">
-  					<div><span class="glyphicon glyphicon-education"></span></div>
-            <h3>I went to school for these degrees:</h3><br />
-  					<p>MSc in Marine Technology - Marine Operations</p><br />
-  					<p><em>(2015 NTNU - Trondheim, Norway)</em></p><br />
-            <p>B.Eng. in Naval Architecture and Marine Engineering</p><br />
-  					<p><em>(2011 UFRJ - Rio de Janeiro, Brazil)</em></p><br />
-
-            <h3>I followed these courses/tutorials online:</h3><br />
-            <p> <a href="https://www.freecodecamp.com/nmarquesin" target="blank">Free Code Camp's</a> Responsive Web Design Certification (May 2019)</p>
-            <p> <a href="https://www.freecodecamp.com/nmarquesin" target="blank">Free Code Camp's</a> JavaScript Algorithms and Data Structures Certification (April 2019)</p>
-            <p> <a href="https://www.udacity.com/course/configuring-linux-web-servers--ud299" target="blank">Udacity's</a> Configuring Linux Web Servers (May 2017)</p>
-            <p> <a href="https://www.udacity.com/course/intro-to-relational-databases--ud197" target="blank">Udacity's</a> Intro to Relational Databases (May 2017)</p>
-            <p> <a href="https://www.freecodecamp.com/nmarquesin" target="blank">Free Code Camp's</a> Front End Development Certification (March 2017)</p>
-            <p> <a href="https://www.udacity.com/course/javascript-basics--ud804" target="blank">Udacity's</a> JavaScript Basics (March 2017)</p>
-            <p> <a href="https://www.udacity.com/course/intro-to-jquery--ud245" target="blank">Udacity's</a> Intro to jQuery (March 2017)</p>
-            <p> <a href="https://www.udacity.com/course/full-stack-web-developer-nanodegree--nd004"> Udacity's</a> Responsive Web Design Fundamentals (February 2017)</p>
-            <p> <a href="https://www.udacity.com/course/how-to-use-git-and-github--ud775" target="blank"> Udacity's</a> How to use Git and GitHub (January 2017)</p>
-            <p> <a href="https://www.udacity.com/course/intro-to-html-and-css--ud304" target="blank"> Udacity's</a> Intro to HTML and CSS (January 2017)</p>
-            <p> <a href="https://www.udacity.com/course/intro-to-computer-science--cs101" target="blank">Udacity's</a> Intro to Computer Science (November 2016)</p><br />
+      <p>I'm currently finishing Udacity's <a href="https://www.udacity.com/course/front-end-web-developer-nanodegree--nd001">Front End Nanodegree</a>.</p>
+            
+      <p>I completed the following courses:</p>
+            <p> Free Code Camp's <a href="https://www.freecodecamp.org/certification/nmarquesin/responsive-web-design" target="blank">Responsive Web Design Certification</a> (May 2019)</p>
+            <p> Free Code Camp's <a href="https://www.freecodecamp.org/certification/nmarquesin/javascript-algorithms-and-data-structures" target="blank">JavaScript Algorithms and Data Structures Certification</a> (April 2019)</p>
+            <p> Udacity's <a href="https://www.udacity.com/course/configuring-linux-web-servers--ud299" target="blank">Configuring Linux Web Servers</a> (May 2017)</p>
+            <p> Udacity's <a href="https://www.udacity.com/course/intro-to-relational-databases--ud197" target="blank">Intro to Relational Databases</a> (May 2017)</p>
+            <p> Free Code Camp's <a href="https://www.freecodecamp.org/certification/nmarquesin/legacy-front-end" target="blank">Front End Development Certification</a> (March 2017)</p>
+            <p> Udacity's <a href="https://www.udacity.com/course/javascript-basics--ud804" target="blank">JavaScript Basics</a> (March 2017)</p>
+            <p> Udacity's <a href="https://www.udacity.com/course/intro-to-jquery--ud245" target="blank">Intro to jQuery</a> (March 2017)</p>
+            <p> Udacity's <a href="https://www.udacity.com/course/full-stack-web-developer-nanodegree--nd004">Responsive Web Design Fundamentals</a> (February 2017)</p>
+            <p> Udacity's <a href="https://www.udacity.com/course/how-to-use-git-and-github--ud775" target="blank"> How to use Git and GitHub</a> (January 2017)</p>
+            <p> Udacity's <a href="https://www.udacity.com/course/intro-to-html-and-css--ud304" target="blank">Intro to HTML and CSS</a> (January 2017)</p>
+            <p> Udacity's <a href="https://www.udacity.com/course/intro-to-computer-science--cs101" target="blank">Intro to Computer Science</a> (November 2016)</p><br />
             <div><p><span class="glyphicon glyphicon-tags"></span>
-            : JavaScript, CSS, HTML, Python, PostgreSQL, jQuery, Bootstrap, Sass, Git, Windows, Linux, MacOS, VitualBox, Docker</p></div><br />
-          </div>
-        </div>
-
-		<!--                 -->
-		<!-- Portfolio block -->
-		<!--                 -->
-  		  <div id="portfolio">
-    		  <!-- #portfolio -->
-    			<a name="portfolio"></a>
-          <div class="row">
-    				<div class="col-sm-12 text-center">
-              <div><span class="glyphicon glyphicon-briefcase"></span></div>
-    					<h3>Here are some projects I did for Free Code Camp.</h3><br><br>
-    				 </div>
-    			</div>
-
-          <!-- detail project -->
-  				<div class="row projects">
-  					<div class="col-sm-6">
-  						<img class="img-circle" src="https://c1.staticflickr.com/3/2870/33306070200_6506506b95_b.jpg" alt="Simon memory game" width="350px" />
-  					</div>
-  					<div class="col-sm-6 projectText">
-  						<p>A <a href="apps/simon/index.html" target="_blank">Simon-like</a> game. Remember 20 combinations and win the game. Try it in strict mode for a bigger challenge.</p>
-  					</div>
-  				</div>
-
-          <!-- detail project -->
-          <!-- waiting for new AI implementation
-
-          <div class="row projects">
-  					<div class="col-sm-6">
-  						<img class="img-circle" src="https://c1.staticflickr.com/3/2817/33560752261_34ac32f953_b.jpg" alt="Simon memory game" width="350px" />
-  					</div>
-  					<div class="col-sm-6 projectText">
-  						<p>Tic Tac Toe. Play it against the computer. The A.I. implemented is quite silly, so you should be able to win easily.</p>
-  						<a href="ticTacToe.html" target="blank"><p>Check it out.</p></a>
-  					</div>
-  				</div>
-
-          -->
-
-          <!-- detail project -->
-  				<div class="row projects">
-  					<div class="col-sm-6">
-  						<img class="img-circle" src="https://c1.staticflickr.com/3/2828/33560754451_4f18c99fd4_b.jpg" alt="Pomodoro timer" width="350px" />
-  					</div>
-  					<div class="col-sm-6 projectText">
-  						<p>A <a href="apps/pomodoro/index.html" target="_blank">Pomodoro Timer</a>. Are you familiar with the <a href="https://en.wikipedia.org/wiki/Pomodoro_Technique" target="_blank">Pomodoro Method</a>? Set your work and rest intervals and start working knowing that your next break is coming in no time.</p>
-  					</div>
-  				</div>
-
-          <!-- only-text projects -->
-          <div class="row projects">
-            <div class="col-sm-6 projectText">
-              <p>A <a href="apps/weather/index.html" target="_blank">Weather app</a> that shows current weather at user location. (You will need to allow your browser to know your location.)</p>
+            <strong>Relevant skills: JavaScript, CSS, HTML, Python, PostgreSQL, jQuery, Bootstrap, Sass, Git, Windows, Linux, MacOS, VitualBox, Docker</strong></p></div><br />
             </div>
-
-            <div class="col-sm-6 projectText">
-              <p>A <a href="apps/calculator/index.html" target="_blank">Calculator</a>.</p>
-            </div>
-          </div>
-
-          <!-- only-text projects -->
-          <div class="row projects">
-            <div class="col-sm-6 projectText">
-              <p>A <a href="apps/wikipediaSearch/index.html" target="_blank">Wikipedia Viewer</a>. Search wikipedia or be surprised by a random search.</p>
-            </div>
-
-            <div class="col-sm-6 projectText">
-              <p>A <a href="https://codepen.io/marquesin/full/xNxpew" target="_blank">Technical Documentation</a> Page.</p>
-            </div>
-            <!-- API no longer working
-            <div class="col-sm-6 projectText">
-              <p>Random Quote Generator. Need some inspiration? Press the button, get a quote and tweet it to your hearts content!</p>
-              <a href="apps/quoteGen/index.html" target="_blank"><p>Check it out.</p></a>
-            </div>
-             -->
-
-          </div>
-
-          <!-- only-text projects -->
-          <div class="row projects">
-            <div class="col-sm-6 projectText">
-              <p>A <a href="https://codepen.io/marquesin/full/BEGZLa" target="_blank">Survey Form</a> for a fictional turism company.</p>
-            </div>
-
-            <div class="col-sm-6 projectText">
-              <p>A mockup <a href="https://codepen.io/marquesin/full/QRLBpd" target="_blank">Product Landing</a> Page.</p>
-            </div>
-          </div>
-
-
-        </div>
-
-      </div>
-      <div class="fundo col-sm-2"></div>
-    </div>
-
-		<!--                 -->
-		<!--  Contact block  -->
-		<!--                 -->
-    <div id="contact" class="row">
-			<a name="contact"></a>
-      <div class="fundo col-sm-2"> </div>
-      <div class="col-sm-8">
-				<!-- #contact me -->
-				<div class="row">
-					<div class="col-sm-12 mailMarginTop text-center">
-            Get in contact:<br>
-						<span class="glyphicon glyphicon-envelope blue" aria-hidden="true"></span> <a class="blue" href="mailto:nmarquesin@live.com">nmarquesin@live.com</a>
-          </div>
-          <div class="col-sm-12 text-center"><a href="https://github.com/nmarquesin" target="blank">github.com/nmarquesin</a></div>
-          <div class="col-sm-12 mailMarginBottom text-center"><a href="https://uk.linkedin.com/in/nathaliemarquesin" target="blank">uk.linkedin.com/in/nathaliemarquesin</a></div>
-				</div>
-			</div>
-      <div class="fundo col-sm-2"></div>
-    </div>
-
-
-		<!--                 -->
-		<!-- 	Footer block   -->
-		<!--                 -->
-    <div id="rodape" class="row">
-      <div class="col-sm-12 text-center">
-      <p>&copy 2019 NMR. All rights reserved. Icons provided by <a href="http://glyphicons.com/" target="blank" class="text-muted">Glyphicons</a>.</p>
-      </div>
-    </div>
+    
+    </main>
+    <footer>
+      <p>Get in contact:</p>
+      <p>nmarquesin@live.com</p>
+      <p>
+        <a href="https://github.com/nmarquesin" target="_blank">
+          github.com/nmarquesin
+        </a>
+      </p>
+      <p>
+        <a href="https://www.linkedin.com/in/nathaliemarquesin" target="_blank">
+          uk.linkedin.com/in/nathaliemarquesin
+        </a>
+      </p>
+    </footer>
   </div>
 </body>
 </html>

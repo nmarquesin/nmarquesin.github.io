@@ -1,0 +1,17 @@
+body {
+    text-align: center;
+    font-family: Monospace;
+    font-size: 0.5em;
+    }
+canvas {
+	scale: 0.5;
+}
+#up, #left, #down, #right {
+	height: 80px;
+	width: 80px;
+	color: green;
+	font-variant-caps: small-caps;
+	font-size: 2.5em;
+	text-align: center;
+}
+
