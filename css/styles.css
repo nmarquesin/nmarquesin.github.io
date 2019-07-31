@@ -73,6 +73,10 @@ a {
   text-decoration: none;
 }
 
+.education {
+  padding-bottom: 40px;
+}
+
 .education a {
   text-decoration: underline;
 }
